@@ -1,0 +1,126 @@
+@media screen and (min-width: 1024px) {
+    body {
+        width: 100%;
+    }
+
+    .site__header {
+        background :rgba(255, 184, 194, 0.4);
+        max-width: 100%;
+        display: flex;
+        padding: 0px 20px;
+        position: fixed;
+        justify-content: space-between;
+        align-items: center;
+        transition: 0.9s;
+        width: 100%;
+        padding: 10px 20px;
+        &.transform {
+            background: rgba(255, 255, 255, 0.9);
+            padding: 30px 20px;
+        }
+    }
+
+    /* logo */
+    .site__logo {
+        font-style: italic;
+        font-family: 'Apple Chancery',sans-serif;
+    }
+
+    /* menu */
+
+    .gnav__menu {
+        display: flex;
+        &__list {
+            margin-left: 20px;
+
+            a {
+                color: #333;
+                text-decoration: none;
+                transition-duration: 0.3s;
+                transition-property: color;
+                font-family: 'Apple Chancery',sans-serif;
+                font-size: 16px;
+                font-style: italic;
+                /* マウスオーバー */
+                &:hover {
+                    color: rgb(255, 194, 194);
+                }
+            }
+        }
+    }
+
+    /* メイン画像 */
+
+    .main__img {
+        width: 100%;
+        margin: 0 auto;
+        clear: both;
+        padding-bottom: 56px;
+        img {
+            width: 100%;
+        }
+    }
+
+    /* eye__contents */
+
+    .eye__contents {
+        max-width: 100%;
+        width: 100%;
+        .eye__desain {
+            table {
+                width: 100%;
+            }
+            tr {
+                width: 300px;
+                padding: 30px;
+                margin: 20px;
+                // border: 1px solid #ffb6c1;
+                
+            }
+            tbody {
+                display: flex;
+                justify-content: center;
+            }
+            th, td {
+                display: block;
+                width: 100%;
+                text-align: center;
+                // border: 1px solid #ffb6c1;
+            }
+            th {
+                height: 150px;
+            }
+            td {
+                height: 50px;
+            }
+
+        }
+    }
+
+    .news {
+        max-width: 100%;
+        width: 1000px;
+        border: 1px solid #ffb6c1;
+        border-radius: 10px;
+        padding: 10px;
+        margin: 100px auto 50px;
+        justify-content: center;
+    }
+
+    h2 {
+        text-align: center;
+    }
+
+    
+
+    footer {
+        width: 100%;
+        background-color: #fff;
+    }
+
+    .footerCopyright {
+        text-align: center;
+        font-size: 12px;
+    }
+
+}
