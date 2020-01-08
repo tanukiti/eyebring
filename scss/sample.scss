@@ -98,6 +98,8 @@
             h2 {
                 font-family: 'Apple Chancery',sans-serif;
                 // border: 1px solid #ffb6c1;
+                width: 0 auto;
+                text-align: center;
             }
 
         }
@@ -113,10 +115,7 @@
         justify-content: center;
     }
 
-    h2 {
-        text-align: center;
-    }
-
+    
     
 
     footer {

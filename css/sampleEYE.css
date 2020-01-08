@@ -87,6 +87,8 @@
 		}
 		.eye__contents .eye__desain h2 {
 				font-family: 'Apple Chancery',sans-serif;
+				width: 0 auto;
+				text-align: center;
 		}
 		.news {
 				max-width: 100%;
@@ -96,9 +98,6 @@
 				padding: 10px;
 				margin: 100px auto 50px;
 				justify-content: center;
-		}
-		h2 {
-				text-align: center;
 		}
 		footer {
 				width: 100%;
