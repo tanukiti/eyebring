@@ -19,3 +19,5 @@ $(function () {
   var height = $("header").height();
   $(".main__img").css("padding-top", height + 20);
 });
+
+
