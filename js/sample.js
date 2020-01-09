@@ -20,4 +20,3 @@ $(function () {
   $(".main__img").css("padding-top", height + 20);
 });
 
-
