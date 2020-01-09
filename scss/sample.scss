@@ -2,7 +2,7 @@
     //変数定義
     $font: 'Apple Chancery' ,sans-serif;
 
-    
+
     body {
         width: 100%;
     }
@@ -36,7 +36,6 @@
         display: flex;
         &__list {
             margin-left: 20px;
-
             a {
                 color: #333;
                 text-decoration: none;
@@ -79,7 +78,7 @@
                 width: 300px;
                 padding: 30px;
                 margin: 20px;
-                // border: 1px solid #ffb6c1;
+                // border: 1px solid rgb(255, 182, 193);
                 
             }
             tbody {
@@ -110,7 +109,6 @@
     }
     /* news */
     .news {
-        
         max-width: 100%;
         width: 1000px;
         // border: 1px solid #ffb6c1;
@@ -124,8 +122,9 @@
             // border: 1px solid #ffb6c1;
             
             padding: 30px;
-            &:nth-child(odd) {
-                background-color: rgba(189, 189, 189, 0.4);
+            &:nth-child(even) {
+                background-color: rgba(255, 182, 193, 0.2);
+                border-radius: 7px;
             }
             li {
                 width: 300px;
@@ -141,11 +140,9 @@
             // border: 1px solid #ffb6c1;
             width: 0 auto;
             text-align: center;
+            padding-bottom: 10px;
         }
     }
-
-        
-    
 
     footer {
         width: 100%;
