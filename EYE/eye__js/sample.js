@@ -4,7 +4,7 @@ $(function () {
     heroBottom;
 
   _window.on("scroll", function () {
-    heroBottom = $(".main__img").height();
+    heroBottom = $(".main__header").height();
     if (_window.scrollTop()) {
       _header.addClass("transform");
     } else {
@@ -17,6 +17,6 @@ $(function () {
 
 $(function () {
   var height = $("header").height();
-  $(".main__img").css("padding-top", height + 20);
+  $(".main__header").css("padding-top", height + 20);
 });
 

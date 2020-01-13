@@ -42,4 +42,14 @@
 		.gnav__menu__list a:hover {
 				color: #ffc2c2;
 		}
+		.pra {
+				width: 100%;
+				height: 0px;
+		}
+		.price {
+				width: 100%;
+				margin: 0 auto;
+				clear: both;
+				padding-bottom: 56px;
+		}
 }
