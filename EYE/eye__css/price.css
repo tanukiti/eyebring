@@ -1,4 +1,3 @@
-@charset "UTF-8";
 @media screen and (min-width: 1024px) {
 		body {
 				width: 100%;
@@ -39,7 +38,6 @@
 				font-family: "Apple Chancery", sans-serif;
 				font-size: 16px;
 				font-style: italic;
-				/* マウスオーバー */
 		}
 		.gnav__menu__list a:hover {
 				color: #ffc2c2;
