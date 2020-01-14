@@ -105,6 +105,24 @@
                 // border: 1px solid #ffb6c1;
                 width: 0 auto;
                 text-align: center;
+                display: flex;
+                align-items: center;
+                &:before {
+                    content: "";
+                    flex-grow: 1;
+                    height: 1px;
+                    display: block;
+                    margin-right: .4em;
+                    background: linear-gradient(-90deg, #888, transparent);
+                }
+                &:after {
+                    content: "";
+                    flex-grow: 1;
+                    height: 1px;
+                    display: block;
+                    margin-left: .4em;
+                    background: linear-gradient(90deg, #888, transparent);
+                }
             }
 
         }
@@ -138,11 +156,29 @@
             }
         }
         h2 {
-            font-family: $font;
             // border: 1px solid #ffb6c1;
             width: 0 auto;
             text-align: center;
             padding-bottom: 10px;
+            display: flex;
+            align-items: center;
+            font-family: $font;
+            &:before {
+                content: "";
+                flex-grow: 1;
+                height: 1px;
+                display: block;
+                margin-right: .4em;
+                background: linear-gradient(-90deg, #888, transparent);
+            }
+            &:after {
+                content: "";
+                flex-grow: 1;
+                height: 1px;
+                display: block;
+                margin-left: .4em;
+                background: linear-gradient(90deg, #888, transparent);
+            }
         }
     }
 
@@ -154,6 +190,7 @@
     .footerCopyright {
         text-align: center;
         font-size: 12px;
+        font-family: $font;
     }
 
 }

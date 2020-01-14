@@ -89,6 +89,24 @@
 				font-family: "Apple Chancery", sans-serif;
 				width: 0 auto;
 				text-align: center;
+				display: flex;
+				align-items: center;
+		}
+		.eye__contents .eye__desain h2:before {
+				content: "";
+				flex-grow: 1;
+				height: 1px;
+				display: block;
+				margin-right: .4em;
+				background: linear-gradient(-90deg, #888, transparent);
+		}
+		.eye__contents .eye__desain h2:after {
+				content: "";
+				flex-grow: 1;
+				height: 1px;
+				display: block;
+				margin-left: .4em;
+				background: linear-gradient(90deg, #888, transparent);
 		}
 		/* news */
 		.news {
@@ -117,10 +135,28 @@
 				word-wrap: break-word;
 		}
 		.news h2 {
-				font-family: "Apple Chancery", sans-serif;
 				width: 0 auto;
 				text-align: center;
 				padding-bottom: 10px;
+				display: flex;
+				align-items: center;
+				font-family: "Apple Chancery", sans-serif;
+		}
+		.news h2:before {
+				content: "";
+				flex-grow: 1;
+				height: 1px;
+				display: block;
+				margin-right: .4em;
+				background: linear-gradient(-90deg, #888, transparent);
+		}
+		.news h2:after {
+				content: "";
+				flex-grow: 1;
+				height: 1px;
+				display: block;
+				margin-left: .4em;
+				background: linear-gradient(90deg, #888, transparent);
 		}
 		footer {
 				width: 100%;
@@ -129,5 +165,6 @@
 		.footerCopyright {
 				text-align: center;
 				font-size: 12px;
+				font-family: "Apple Chancery", sans-serif;
 		}
 }

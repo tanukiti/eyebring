@@ -11,7 +11,6 @@
         background :rgba(255, 255, 255, 0.4);
         max-width: 100%;
         display: flex;
-        padding: 0px 20px;
         position: fixed;
         justify-content: space-between;
         align-items: center;
@@ -51,17 +50,70 @@
         }
     }
 
-    .pra {
-        width: 100%;
-        height: 0px;
-
-    }
-
     .price {
         width: 100%;
         margin: 0 auto;
         clear: both;
-        padding-bottom: 56px;
-        
+        padding: 30px;
+        .title {
+            display: flex;
+            align-items: center;
+            font-size: 48px;
+            margin-bottom: 20px;
+            font-style: italic;
+            font-family: $font;
+            &:before {
+                content: "";
+                flex-grow: 1;
+                height: 1px;
+                display: block;
+                margin-right: .4em;
+                background: linear-gradient(-90deg, #888, transparent);
+            }
+            &:after {
+                content: "";
+                flex-grow: 1;
+                height: 1px;
+                display: block;
+                margin-left: .4em;
+                background: linear-gradient(90deg, #888, transparent);
+            }
+        }
+        .price__img {
+            width: 641px;
+            margin: 0 auto;
+        }
+        img {
+
+            margin: 0 auto;
+            clear: both;
+        }
     }
+    table {
+        width: 100%;
+        tbody {
+            display: flex;
+            justify-content: center;
+            th, td {
+                display: block;
+                border: 1px solid #333;
+                width: 200px;
+                height: 50px;
+                text-align: center;
+                padding: 0px auto;
+            }
+        }
+    }
+
+    footer {
+        width: 100%;
+        background-color: #fff;
+    }
+
+    .footerCopyright {
+        text-align: center;
+        font-size: 12px;
+        font-family: $font;
+    }
+
 }
