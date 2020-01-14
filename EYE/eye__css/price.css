@@ -80,19 +80,30 @@
 				clear: both;
 		}
 		table {
-				width: 100%;
+				width: 900px;
+				margin: 0 auto;
+				border-collapse: collapse;
 		}
-		table tbody {
-				display: flex;
-				justify-content: center;
+		table tbody tr:nth-child(even) {
+				background-color: rgba(181, 181, 181, 0.4);
+		}
+		table tbody th {
+				text-align: center;
+		}
+		table tbody th:first-child {
+				width: 100px;
+				background-color: #fff;
 		}
 		table tbody th, table tbody td {
-				display: block;
-				border: 1px solid #333;
-				width: 200px;
-				height: 50px;
-				text-align: center;
-				padding: 0px auto;
+				border: 1px solid rgba(181, 181, 181, 0.7);
+				height: 40px;
+		}
+		table tbody td {
+				text-align: right;
+		}
+		table tbody td:first-child {
+				text-align: left;
+				padding-left: 16px;
 		}
 		footer {
 				width: 100%;
