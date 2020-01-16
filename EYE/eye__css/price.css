@@ -83,6 +83,7 @@
 				width: 900px;
 				margin: 0 auto;
 				border-collapse: collapse;
+				margin-top: 20px;
 		}
 		table tbody tr:nth-child(even) {
 				background-color: rgba(181, 181, 181, 0.4);
