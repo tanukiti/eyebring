@@ -60,7 +60,7 @@
             font-size: 24px;
             margin-top: 30px;
             margin-bottom: 30px;
-            font-family: $font2;
+            font-family: $font;
             font-weight: normal;
             &:before {
                 content: "";
@@ -113,12 +113,7 @@
         }
     }
 
-    span {
-        height: 40px;
-        width: 40px;
-        display: block;
-        position: relative;
-    }
+    
     .demoSpan1 {
         overflow: hidden;
         height: 25px;
@@ -136,8 +131,8 @@
             -o-transform:rotate(-45deg);
             -ms-transform:rotate(-45deg);
             position:absolute;
-            bottom:7px;
-            left:7px;
+            top:3px;
+            right:10px;
         }
     }
 }

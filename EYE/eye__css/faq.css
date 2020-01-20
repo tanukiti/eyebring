@@ -52,7 +52,7 @@
 				font-size: 24px;
 				margin-top: 30px;
 				margin-bottom: 30px;
-				font-family: "Hiragino Mincho ProN";
+				font-family: "Apple Chancery", sans-serif;
 				font-weight: normal;
 		}
 		.faq .by__number:before {
@@ -101,7 +101,6 @@
 				padding: 1rem;
 				font-family: "Hiragino Mincho ProN";
 		}
-		
 		.demoSpan1 {
 				overflow: hidden;
 				height: 25px;
@@ -111,7 +110,7 @@
 				height: 20px;
 				width: 20px;
 				display: block;
-				border: 3px solid white;
+				border: 5px solid white;
 				border-right-width: 0;
 				border-top-width: 0;
 				transform: rotate(-45deg);
