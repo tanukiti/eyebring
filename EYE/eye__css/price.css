@@ -147,4 +147,11 @@
 				font-size: 12px;
 				font-family: "Apple Chancery", sans-serif;
 		}
+		.tax {
+				font-size: 4px;
+				border: none;
+		}
+		.tax p {
+				text-align: right;
+		}
 }

@@ -126,6 +126,7 @@
                 &:nth-child(even) {
                     background-color: rgba(181, 181, 181, 0.4);
                 }
+                
             }
             th {
                 text-align: center;
@@ -161,6 +162,14 @@
         text-align: center;
         font-size: 12px;
         font-family: $font;
+    }
+
+    .tax {
+        font-size: 4px;
+        border: none;
+        p {
+            text-align: right;
+        }
     }
 
 }
