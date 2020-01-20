@@ -90,6 +90,13 @@
 				display: block;
 				padding: 1rem;
 				font-family: "Hiragino Mincho ProN";
+				font-size: 16px;
+		}
+		.menu__item__link .question {
+				font-size: 18px;
+				font-weight: bold;
+				color: #fff;
+				padding-right: 30px;
 		}
 		.submenu {
 				background: #fff;
@@ -119,7 +126,7 @@
 				-o-transform: rotate(-45deg);
 				-ms-transform: rotate(-45deg);
 				position: absolute;
-				top: 3px;
+				top: 8px;
 				right: 10px;
 		}
 }
