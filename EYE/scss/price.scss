@@ -1,7 +1,7 @@
 @media screen and (min-width: 1024px) {
     //変数定義
     $font: 'Apple Chancery' ,sans-serif;
-
+    $font2: 'Hiragino Mincho ProN';
 
     body {
         width: 100%;
@@ -87,6 +87,31 @@
 
             margin: 0 auto;
             clear: both;
+        }
+        .by__number {
+            display: flex;
+            align-items: center;
+            font-size: 24px;
+            margin-top: 30px;
+            margin-bottom: 20px;
+            font-family: $font2;
+            font-weight: normal;
+            &:before {
+                content: "";
+                flex-grow: 1;
+                height: 1px;
+                display: block;
+                margin-right: .4em;
+                background: linear-gradient(-90deg, #888, transparent);
+            }
+            &:after {
+                content: "";
+                flex-grow: 1;
+                height: 1px;
+                display: block;
+                margin-left: .4em;
+                background: linear-gradient(90deg, #888, transparent);
+            }
         }
         
     }
